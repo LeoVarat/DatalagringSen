@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatalagrinWPF_App", "DatalagrinWPF_App.csproj", "{39175BD2-BB56-44E5-94E8-0732E80EB508}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "..\WpfApp1\WpfApp1.csproj", "{C6108CCE-6170-4CDF-A71D-09C3EBD5A5A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{39175BD2-BB56-44E5-94E8-0732E80EB508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39175BD2-BB56-44E5-94E8-0732E80EB508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39175BD2-BB56-44E5-94E8-0732E80EB508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6108CCE-6170-4CDF-A71D-09C3EBD5A5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6108CCE-6170-4CDF-A71D-09C3EBD5A5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6108CCE-6170-4CDF-A71D-09C3EBD5A5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6108CCE-6170-4CDF-A71D-09C3EBD5A5A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

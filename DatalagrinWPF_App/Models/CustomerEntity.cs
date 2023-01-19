@@ -15,19 +15,20 @@ namespace DatalagrinWPF_App.Models
         public int Id { get; set; }
 
         [Required, StringLength (40)]
-        public string FirstName { get; set; } = !null;
+        public string FirstName { get; set; } = null!;
 
         [Required, StringLength(40)]
-        public string LastName { get; set; } = !null;
+        public string LastName { get; set; } = null!;
 
         [Required, StringLength(100), Unicode(false)]
-        public string Email { get; set; } = !null;
+        public string Email { get; set; } = null!;
 
         [Required, StringLength(20)]
-        public string Phone { get; set; };
+        public string Phone { get; set; } = null!;
 
         [Required]
-        public int AdressId { get; set; };
-        public virtual AdressEntity Adress { get; set; } = !null;
+        public int AdressId { get; set; }
+
+        public virtual AdressEntity Adress { get; set; } = null!;
     }
 }

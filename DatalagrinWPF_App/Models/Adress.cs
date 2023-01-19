@@ -8,9 +8,9 @@ namespace DatalagrinWPF_App.Models
 {
     internal class Adress
     {
-        public string StreetName { get; set; } = !null;
-        public string PostalCode { get; set; } = ½null;
-        public string City { get; set; } = !null;
-        public string Country { get; set; } = !null;
+        public string StreetName { get; set; } = null!;
+        public string PostalCode { get; set; } = null!;
+        public string City { get; set; } = null!;
+        public string Country { get; set; } = null!;
     }
 }

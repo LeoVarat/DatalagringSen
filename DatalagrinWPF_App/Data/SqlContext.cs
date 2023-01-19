@@ -20,13 +20,13 @@ namespace DatalagrinWPF_App.Data
 
         }
 
-        public virtual DbSet<AdressEntity> Adresses { get; set; } = !null;
-        public virtual DbSet<CustomerEntity> Customers { get; set; } = !null;
+        public virtual DbSet<AdressEntity> Adresses { get; set; } = null!;
+        public virtual DbSet<CustomerEntity> Customers { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if(!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\PC\Desktop\Repositories\DatalagringSen\DatalagrinWPF_App\Data\codeFirst_db.mdf;Integrated Security=True;Connect Timeout=30")
+            if (!optionsBuilder.IsConfigured)
+                optionsBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\PC\Desktop\Repositories\DatalagringSen\DatalagrinWPF_App\Data\codeFirst_db.mdf;Integrated Security=True;Connect Timeout=30");
         }
     }
 }
